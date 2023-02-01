@@ -1,0 +1,96 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    background: #FEFEFF;
+    border-radius: 8px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #E5E5E5;
+    border-radius: 8px 0 0 8px;
+}
+
+.sidebarBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.rangeSlider {
+    margin: 35px 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.pack {
+    text-decoration: none;
+    color: #7b1fa2;
+
+    max-width: 200px;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.pack:hover {
+    font-weight: bold;
+}
+
+.createdBy {
+    max-width: 200px;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.paginatorBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selector {
+    display: flex;
+    align-items: center;
+}
+
+.buttonBlock {
+    display: flex;
+}
+
+.sortUp {
+    cursor: pointer;
+    background-image: url(../../assets/images/up-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 100% center;
+    padding-right: 35px !important;
+
+}
+
+.sortDown {
+    cursor: pointer;
+    background-image: url(../../assets/images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 100% center;
+    padding-right: 35px !important;
+}
